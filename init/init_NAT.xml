@@ -1,0 +1,29 @@
+<mode>advanced</mode>
+<rule>
+<source>
+    <network>lan</network>
+</source>
+<destination>
+    <any>1</any>
+</destination>
+<descr>NAT MGMT to WAN1</descr>
+<category/>
+<interface>wan</interface>
+<tag/>
+<tagged/>
+<poolopts/>
+<poolopts_sourcehashkey/>
+<ipprotocol>inet</ipprotocol>
+<created>
+    <username>root@10.1.1.101</username>
+    <time>1693938353.2327</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
+</created>
+<target>11.22.33.44</target>
+<sourceport/>
+<updated>
+    <username>root@10.5.5.100</username>
+    <time>1694774817.8772</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
+</updated>
+</rule>

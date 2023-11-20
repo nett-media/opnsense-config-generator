@@ -1,0 +1,28 @@
+    <vip uuid="validUUID">
+      <interface>wan</interface>
+      <mode>carp</mode>
+      <subnet>11.22.33.44</subnet>
+      <subnet_bits>29</subnet_bits>
+      <gateway/>
+      <noexpand>0</noexpand>
+      <nobind>0</nobind>
+      <password>samplePass</password>
+      <vhid>1</vhid>
+      <advbase>1</advbase>
+      <advskew>0</advskew>
+      <descr>VIP WAN1</descr>
+    </vip>
+    <vip uuid="validUUID">
+      <interface>wan</interface>
+      <mode>carp</mode>
+      <subnet>11.22.33.66</subnet>
+      <subnet_bits>29</subnet_bits>
+      <gateway/>
+      <noexpand>0</noexpand>
+      <nobind>0</nobind>
+      <password>anotherPass</password>
+      <vhid>2</vhid>
+      <advbase>1</advbase>
+      <advskew>0</advskew>
+      <descr>VIP WAN2</descr>
+    </vip>

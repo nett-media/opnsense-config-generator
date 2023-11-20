@@ -1,0 +1,26 @@
+    <rule uuid="validUUID">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>carp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.1.1.200</username>
+        <time>1692915066.9751</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.1.1.200</username>
+        <time>1692915066.9751</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
+    </rule>

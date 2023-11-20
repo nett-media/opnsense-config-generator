@@ -1,0 +1,16 @@
+    <vlan uuid="validUUID">
+      <if>lagg0</if>
+      <tag>1</tag>
+      <pcp>7</pcp>
+      <proto/>
+      <descr>MGMT VLAN</descr>
+      <vlanif>vlan01</vlanif>
+    </vlan>
+    <vlan uuid="validUUID">
+      <if>lagg0</if>
+      <tag>10</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>G&#xE4;ste VLAN</descr>
+      <vlanif>vlan010</vlanif>
+    </vlan>

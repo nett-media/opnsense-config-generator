@@ -1,0 +1,45 @@
+<wan>
+    <if>ix0</if>
+    <descr>WAN</descr>
+    <enable>1</enable>
+    <spoofmac/>
+    <blockpriv>1</blockpriv>
+    <blockbogons>1</blockbogons>
+    <ipaddr>11.22.33.44</ipaddr>
+    <subnet>29</subnet>
+    <gateway>WAN_GWv4</gateway>
+</wan>
+<lan>
+    <enable>1</enable>
+    <if>lagg0</if>
+    <ipaddr>10.1.1.11</ipaddr>
+    <subnet>24</subnet>
+    <ipaddrv6/>
+    <subnetv6/>
+    <media/>
+    <mediaopt/>
+    <gateway/>
+    <gatewayv6/>
+    <descr>LAN</descr>
+</lan>
+<lo0>
+    <internal_dynamic>1</internal_dynamic>
+    <descr>Loopback</descr>
+    <enable>1</enable>
+    <if>lo0</if>
+    <ipaddr>127.0.0.1</ipaddr>
+    <ipaddrv6>::1</ipaddrv6>
+    <subnet>8</subnet>
+    <subnetv6>128</subnetv6>
+    <type>none</type>
+    <virtual>1</virtual>
+</lo0>
+<openvpn>
+    <internal_dynamic>1</internal_dynamic>
+    <enable>1</enable>
+    <if>openvpn</if>
+    <descr>OpenVPN</descr>
+    <type>group</type>
+    <virtual>1</virtual>
+    <networks/>
+</openvpn>
